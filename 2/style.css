@@ -49,3 +49,14 @@ table {
 
 /* Add Styles Here */
 body { font-family:Times; font-size:14px; }
+
+header { height:100px; background-color:lightblue;}
+header h1 { background-color:lightgray; padding:30px; text-align:center; }
+section { margin-top:20px; }
+section h2 { font-size:25px; padding-bottom:5px; background-color:lightgreen; }
+section div#sidebar { background-color:tan; text-align:center; padding-top:95px; padding-bottom:96px;}
+p { line-height:25px; background-color:purple;}
+footer { background-color:pink; padding:25px; text-align:center; margin-top:20px; margin-bottom:50px; }
+
+
+
