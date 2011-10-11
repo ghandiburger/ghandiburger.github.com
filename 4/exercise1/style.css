@@ -50,4 +50,35 @@ table {
 	border-spacing: 0;
 }
 
+body {
+	font-family: Arial;
+	line-height: 1.4em;
+}
 
+h1 {
+	font-size: 30px;
+	padding-bottom: 5px;
+}
+
+h2 {
+	color: lightgray;
+	padding-bottom: 10px;
+}
+
+#main-content {
+	position: relative;
+	margin: 0 auto;
+	width: 960px;
+	background-color: blue;
+}
+
+article {
+	float: left;
+	width: 450px;
+	padding: 10px;
+}
+
+img {
+	float: left;
+	padding: 0px 15px 5px 0px;
+}
