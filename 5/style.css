@@ -101,6 +101,7 @@ h2, footer a {
 footer {
 	clear:both;
 	padding-top: 50px;
+	border-top:5px solid black;
 	text-align:center;
 }
 
@@ -128,7 +129,7 @@ li {
 }
 
 header {
-	margin-bottom:35px;
+	margin-bottom:20px;
 }
 
 h1 {
@@ -147,7 +148,6 @@ article {
 #content {
 	float:left;
 	width:600px;
-
 	padding-right:80px;
 }
 
@@ -156,6 +156,7 @@ article {
 	width:280px;
 	line-height: 2em;
 }
+
 
 @font-face {
     font-family: 'BevanRegular';
