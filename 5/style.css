@@ -156,6 +156,10 @@ article {
 	line-height: 2em;
 }
 
+#body-wrapper {
+	font-family:"Georgia";
+}
+
 
 @font-face {
     font-family: 'BevanRegular';
