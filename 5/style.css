@@ -49,7 +49,6 @@ table {
 
 body {
 	margin:0 auto;
-	width:960px;
 	background-color:#0f2e4a;
 	/*color:#808584;*/
 	color:#c4cecb;
@@ -57,15 +56,15 @@ body {
 
 header {
 	position:relative;
-		text-align:center;
-
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:20px;
 }
 
 #logo {
 	position:relative;
 	display: inline-block;
 	width:960px;
-	border-bottom: 5px solid black;
 }
 
 #b {
@@ -102,12 +101,17 @@ footer {
 	clear:both;
 	padding-top: 50px;
 	text-align:center;
+	padding-bottom:200px;
+	background-color:black;
 }
 
 nav {
-	margin-top:13px;
+	margin:0 auto;
+	border-top: 5px solid black;
+	padding-top:13px;
 	font-family: "LeagueGothicRegular";
 	font-size: 40px;
+	width:960px;
 	padding-bottom:14px;
 	border-bottom: 5px solid black;
 }
@@ -125,10 +129,6 @@ nav a:hover {
 
 li {
 	display:inline;
-}
-
-header {
-	margin-bottom:20px;
 }
 
 h1 {
@@ -157,6 +157,8 @@ article {
 }
 
 #body-wrapper {
+	margin: 0 auto;
+	width:960px;
 	font-family:"Georgia";
 }
 
