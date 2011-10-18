@@ -51,6 +51,8 @@ body {
 	margin:0 auto;
 	width:960px;
 	background-color:#0f2e4a;
+	/*color:#808584;*/
+	color:#c4cecb;
 }
 
 header {
@@ -103,23 +105,22 @@ footer {
 }
 
 nav {
-	margin-top:10px;
+	margin-top:13px;
 	font-family: "LeagueGothicRegular";
 	font-size: 40px;
-	padding-bottom:10px;
+	padding-bottom:14px;
 	border-bottom: 5px solid black;
 }
 
 nav a {
-	margin: 20px;
-	padding-left:3px;
-	padding-right:2px;
+	margin: 30px;
+	padding:10px;
 	text-decoration:none;
 	color:#981703;
 }
 
 nav a:hover {
-	background-color:#f7cd7d;
+	background-color:#c4cecb;
 }
 
 li {
@@ -140,7 +141,7 @@ h1 {
 
 article {
 	margin-bottom: 20px;
-	line-height: 1.6em;
+	line-height: 2em;
 }
 
 #content {
@@ -153,6 +154,7 @@ article {
 #sidebar {
 	float:left;
 	width:280px;
+	line-height: 2em;
 }
 
 @font-face {
