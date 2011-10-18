@@ -71,6 +71,7 @@ header {
 	font-family:"Georgia";
 	font-size: 100px;
 	color:#981703;
+	padding-right:55px;
 }
 
 #l {
@@ -78,11 +79,12 @@ header {
 	font-family:"Georgia";
 	font-size: 100px;
 	color:#981703;
+	padding-left:55px;
 }
 
 #og {
 	display:block;
-	font-family:"Rockwell";
+	font-family:"BevanRegular";
 	color:#e4681c;
 	font-size:200px;
 }
@@ -153,7 +155,17 @@ article {
 	width:280px;
 }
 
+@font-face {
+    font-family: 'BevanRegular';
+    src: url('Bevan-webfont.eot');
+    src: url('Bevan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Bevan-webfont.woff') format('woff'),
+         url('Bevan-webfont.ttf') format('truetype'),
+         url('Bevan-webfont.svg#BevanRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 
 
