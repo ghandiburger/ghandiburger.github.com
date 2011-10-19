@@ -54,6 +54,19 @@ body {
 	color:#c4cecb;
 }
 
+header {
+	position:relative;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom:20px;
+}
+
+#logo {
+	position:relative;
+	display: inline-block;
+	width:960px;
+}
+
 .logo-1 {
 	display:inline-block;
 	font-family:"Georgia";
@@ -69,76 +82,11 @@ body {
 	font-size:200px;
 }
 
-nav {
-	margin:0 auto;
-	border-top: 5px solid black;
-	padding-top:13px;
-	font-family: "LeagueGothicRegular";
-	font-size: 40px;
-	width:960px;
-	padding-bottom:14px;
-	border-bottom: 5px solid black;
-}
-
-nav a {
-	margin: 30px;
-	padding:10px;
-	text-decoration:none;
-	color:#981703;
-}
-
-nav a:hover {
-	background-color:#c4cecb;
-}
-header {
-	position:relative;
-	text-align:center;
-	margin: 0 auto;
-	margin-bottom:20px;
-}
-
-#logo {
-	position:relative;
-	display: inline-block;
-	width:960px;
-}
-
-#b {
-	display:inline-block;
-	font-family:"Georgia";
-	font-size: 100px;
-	color:#981703;
-	padding-right:55px;
-}
-
-#l {
-	display:inline-block;
-	font-family:"Georgia";
-	font-size: 100px;
-	color:#981703;
-	padding-left:55px;
-}
-
-#og {
-	display:block;
-	font-family:"BevanRegular";
-	color:#e4681c;
-	font-size:200px;
-}
-
 h2, footer a {
 	display:inline-block;
 	font-family:"Georgia";
 	color:#e4681c;
 	padding-bottom:15px;
-}
-
-footer {
-	clear:both;
-	padding-top: 50px;
-	text-align:center;
-	padding-bottom:200px;
-	background-color:black;
 }
 
 nav {
@@ -165,6 +113,14 @@ nav a:hover {
 
 li {
 	display:inline;
+}
+
+footer {
+	clear:both;
+	padding-top: 50px;
+	text-align:center;
+	padding-bottom:200px;
+	background-color:black;
 }
 
 h1 {
