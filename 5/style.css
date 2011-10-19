@@ -54,6 +54,42 @@ body {
 	color:#c4cecb;
 }
 
+.logo-1 {
+	display:inline-block;
+	font-family:"Georgia";
+	font-size:200px;
+	color:#981703;
+	margin-bottom:10px;
+}
+
+.logo-2 {
+	display:block;
+	font-family:"BevanRegular";
+	color:#e4681c;
+	font-size:200px;
+}
+
+nav {
+	margin:0 auto;
+	border-top: 5px solid black;
+	padding-top:13px;
+	font-family: "LeagueGothicRegular";
+	font-size: 40px;
+	width:960px;
+	padding-bottom:14px;
+	border-bottom: 5px solid black;
+}
+
+nav a {
+	margin: 30px;
+	padding:10px;
+	text-decoration:none;
+	color:#981703;
+}
+
+nav a:hover {
+	background-color:#c4cecb;
+}
 header {
 	position:relative;
 	text-align:center;
