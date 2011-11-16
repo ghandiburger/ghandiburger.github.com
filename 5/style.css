@@ -52,25 +52,26 @@ body {
 	background-color:#0f2e4a;
 	/*color:#808584;*/
 	color:#c4cecb;
+	font-family:"Georgia";
 }
 
 header {
 	position:relative;
 	text-align:center;
 	margin: 0 auto;
-	margin-bottom:20px;
+	margin-bottom:1%;
 }
 
 #logo {
 	position:relative;
 	display: inline-block;
-	width:960px;
+	width:100%;
 }
 
 .logo-1 {
 	display:inline-block;
 	font-family:"Georgia";
-	font-size:200px;
+	font-size:12.5em;
 	color:#981703;
 	margin-bottom:10px;
 }
@@ -79,7 +80,7 @@ header {
 	display:block;
 	font-family:"BevanRegular";
 	color:#e4681c;
-	font-size:200px;
+	font-size:12.5em;
 }
 
 h2, footer a {
@@ -91,23 +92,25 @@ h2, footer a {
 
 nav {
 	margin:0 auto;
-	border-top: 5px solid black;
 	padding-top:13px;
 	font-family: "LeagueGothicRegular";
-	font-size: 40px;
-	width:960px;
+	font-size: 2.5em;
+	width:100%;
 	padding-bottom:14px;
-	border-bottom: 5px solid black;
 }
 
 nav a {
-	margin: 30px;
+	margin:30px;
 	padding:10px;
 	text-decoration:none;
 	color:#981703;
 }
 
 nav a:hover {
+	background-color:#c4cecb;
+}
+
+.selected {
 	background-color:#c4cecb;
 }
 
@@ -126,7 +129,7 @@ footer {
 h1 {
 	text-align:center;
 	font-family:"LeagueGothicRegular";
-	font-size:30px;
+	font-size:2em;
 	color: #e4681c;
 	margin-bottom:5px;
 }
@@ -136,24 +139,61 @@ article {
 	line-height: 2em;
 }
 
-#content {
-	float:left;
-	width:600px;
-	padding-right:80px;
+#responsive {
+	display:none;
 }
 
-#sidebar {
-	float:left;
-	width:280px;
-	line-height: 2em;
+#wrapper {
+	width:100%;
+	margin:0 auto;
+	max-width:100%;
 }
 
-#body-wrapper {
-	margin: 0 auto;
-	width:960px;
+#left {
+	float:left;
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#right {
+	float:left;
+	width:40%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+@media screen and (max-width:940px) {
+.logo-1 {
+	display:inline-block;
 	font-family:"Georgia";
+	font-size:6em;
+	color:#981703;
+	margin-bottom:10px;
 }
 
+.logo-2 {
+	display:block;
+	font-family:"BevanRegular";
+	color:#e4681c;
+	font-size:6em;
+}
+
+#left {
+	float:none;
+	width:auto;
+}
+
+#right {
+	float:none;
+	width:auto;
+}
+
+#responsive {
+	display:block;
+}
+
+}
 
 @font-face {
     font-family: 'BevanRegular';
