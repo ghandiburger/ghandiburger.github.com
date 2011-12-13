@@ -15,8 +15,9 @@
     $.getJSON('http://twitter.com/statuses/user_timeline/' + username + '.json?callback=?',
     function(data) {
       console.log(data);
-		$("#feed").html(data);
-    });
+	  	$("#feed-name").text(username);
+		$("#feed").text(data);
+	});
   });
 </script>
 
